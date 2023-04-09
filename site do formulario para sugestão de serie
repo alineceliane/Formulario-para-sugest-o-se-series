@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="sugestõesdeseriescss.css" type="text/css">
+<head>
+    <meta charset="UTF-8" />
+    <title>sugestões</title>
+    
+</head>
+<body>
+    <div id="main"> 
+
+         <div>
+            <h1>Preencha o fomulario e sugira uma nova serie ou filme </h1>
+         </div>
+    
+         <form>
+            
+            <div id="body_forms">
+                <div class="in">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" placeholder="Digite o seu nome"></br></br>
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Digite o seu email"></br></br>
+                </div>
+
+                <div>
+                    <label for="type" > Tipo </label> </br>
+                    <select name="type" id="type" >
+                     <option value="null">--Nenhum-- </option> 
+                     <option value="Filme"> Filme </option>  
+                     <option value="Serie"> Serie </option>  
+                    </select> <br></br>
+                </div>
+
+                <div>
+                    <label for="name">Nome da serie</label>
+                    <input type="text" name="name" id="name" placeholder="Digite o nome da serie"></br></br>
+                </div>
+
+                <div>
+                    Tem algum link do trailler? <input type="url" name="webpage"> </br></br>
+                </div>
+
+                <div>
+                    <input type="submit" value="Enviar" >
+                </div>
+
+            </div>
+    
+         </form>
+
+    </div>  
+</body>
+</html>
